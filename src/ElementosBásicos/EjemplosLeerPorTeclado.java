@@ -30,7 +30,16 @@ public class EjemplosLeerPorTeclado {
         double patrimonio = sc.nextDouble();
         System.out.println("!" + patrimonio + "!" + "Tiene usted derecho a reclamación");
         //Con los decimales: Cuando los escribimos en el código fuente: se pone .
-        //Cuando metemos los datos por teclado: se pone ,
+
+        sc = new Scanner(System.in);
+        //leo cinco palabras por teclado
+        String palabra1 = sc.nextLine();
+        String palabra2 = sc.nextLine();
+        String palabra3 = sc.nextLine();
+        String palabra4 = sc.nextLine();
+        String palabra5 = sc.nextLine();
+        //las escribo cada una en línea
+
 
     }
 }
