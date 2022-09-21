@@ -60,6 +60,8 @@ public class LasVariables {
         String $variable = "Holaa";
         System.out.println($variable);
 
+        System.out.println($variable);
+
 
 
     }
