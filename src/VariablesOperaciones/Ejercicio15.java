@@ -8,6 +8,9 @@ public class Ejercicio15 {
             //Fórmula: p1 * radio al cuadrado
 
             double radio = 5.2;
+            double area= Math.PI * Math.pow(radio, 2); //el método Math.pow : sirve para calcular una potencia y funciona así: Math.pow(base, exponente);
+           //System.out.println(area);// con esto muestra todos los decimales
+        System.out.println("El resultado del área es :" + area);
 
 
         }

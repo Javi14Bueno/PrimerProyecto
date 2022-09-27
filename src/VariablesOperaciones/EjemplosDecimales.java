@@ -11,8 +11,8 @@ public class EjemplosDecimales {
 
         //TIPO FLOAT
         float decimalFloat = 1.3f;
-        float dcimalLargo = -3.12344273214123f;
-        System.out.println(dcimalLargo); // perdemos precisión
+        float decimalLargo = -3.12344273214123f;
+        System.out.println(decimalLargo); // perdemos precisión
 
         //Notación cientifica
 
